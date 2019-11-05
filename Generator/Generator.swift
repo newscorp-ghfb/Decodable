@@ -85,6 +85,7 @@ struct Unique: Hashable, Equatable {
         Unique.counter += 1
         value = Unique.counter
     }
+    
     var hashValue: Int {
         return value.hashValue
     }

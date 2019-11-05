@@ -40,3 +40,4 @@ Carthage/Build
 
 # General OS X
 .DS_Store
+.swiftpm

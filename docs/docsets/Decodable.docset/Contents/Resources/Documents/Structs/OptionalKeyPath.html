@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OptionalKeyPath Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/OptionalKeyPath" class="dashAnchor"></a>
+    <a title="OptionalKeyPath Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Decodable Docs</a> (83% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Decodable Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        OptionalKeyPath Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DecodingError.html">DecodingError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DecodingError/Metadata.html">– Metadata</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Array.html">Array</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Bool.html">Bool</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Date.html">Date</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Dictionary.html">Dictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Double.html">Double</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int.html">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int16.html">Int16</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int32.html">Int32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int64.html">Int64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Int8.html">Int8</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSArray.html">NSArray</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSDictionary.html">NSDictionary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/RawRepresentable.html">RawRepresentable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt16.html">UInt16</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt32.html">UInt32</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt64.html">UInt64</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UInt8.html">UInt8</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/URL.html">URL</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2eeoiySbAA11OptionalKeyV_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2eeoiySbAA13DecodingErrorO8MetadataV_AFtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2eeoiySbAA13DecodingErrorO_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2eeoiySbAA7KeyPathV_ADtF">==(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiyAA15OptionalKeyPathVAD_AA0dE0VtF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiyAA15OptionalKeyPathVAD_ADtF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiyAA7KeyPathVAD_ADtF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_SDyq1_q2_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_SHR1_A2AR2_r3_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_Sayq1_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_q1_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_q1_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_q1_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_q1_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SDyq0_q1_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SaySDyq0_q1_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_SaySayq0_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_Sayq0_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_Sayq0_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_Sayq0_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_Sayq0_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_Sayq0_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_GGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_GGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_GSgGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_GSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_SgGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_SgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSDyq_q0_SgGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_SDyq0_q1_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_Sayq0_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_q0_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_q0_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_q0_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_q0_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySDyq_q0_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySaySDyq_q0_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySaySayq_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySayq_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySayq_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySayq_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySayq_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSaySayq_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_GGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_GGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_GSgGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_GSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_SgGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_SgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxSayq_SgGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxq_GSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxq_Gyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxq_SgGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySDyxq_SgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_SDyq0_q1_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_Sayq0_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_q0_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_q0_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_q0_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_q0_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSDyq_q0_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSaySDyq_q0_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSaySayq_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSayq_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSayq_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSayq_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSayq_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxSayq_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_GGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_GGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_GSgGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_GSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_SgGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_SgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySDyxq_SgGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxSDyq_q0_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxSayq_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxq_GGGSgyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxq_GGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxq_GGSgGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxq_GSgGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySDyxq_SgGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySaySDyxq_GGGGyp_AA7KeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySaySayxGGGGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySayxGGGSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySayxGGGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySayxGGSgGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySayxGSgGGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySaySayxSgGGGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxGGSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxGGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxGSgGSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxGSgGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxSgGGSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxSgGGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySaySayxSgGSgGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySayxGSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySayxGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySayxSgGSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiySayxSgGyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiyxSgyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiyxyp_AA7KeyPathVtKA2ARzlF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2egoiyypyp_AA7KeyPathVtKF">=&gt;(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiyAA15OptionalKeyPathVAA0dE0V_ADtF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiyAA15OptionalKeyPathVAD_ADtF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SDyq0_SDyq1_q2_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_SHR1_A2AR2_r3_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SDyq0_Sayq1_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SDyq0_q1_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SDyq0_q1_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SDyq0_q1_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SDyq0_q1_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SaySDyq0_q1_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_SaySayq0_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_Sayq0_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_Sayq0_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_Sayq0_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_Sayq0_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_q0_GGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_q0_GSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_q0_SgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSDyq_q0_SgGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySDyq_SDyq0_q1_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySDyq_Sayq0_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySDyq_q0_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySDyq_q0_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySDyq_q0_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySDyq_q0_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySaySDyq_q0_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySaySayq_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySayq_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySayq_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySayq_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSaySayq_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSayq_GGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSayq_GSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSayq_SgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxSayq_SgGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxq_GSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySDyxq_SgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSDyq_SDyq0_q1_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_SHR0_A2AR1_r2_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSDyq_Sayq0_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSDyq_q0_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSDyq_q0_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSDyq_q0_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSDyq_q0_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSaySDyq_q0_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSaySayq_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSayq_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSayq_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSayq_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxSayq_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxq_GGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxq_GSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxq_SgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySDyxq_SgGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySDyxSDyq_q0_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_SHR_A2AR0_r1_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySDyxSayq_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySDyxq_GGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySDyxq_GGSgGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySDyxq_GSgGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySDyxq_SgGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySaySDyxq_GGGGSgyp_AA15OptionalKeyPathVtKA2ARzSHRzA2AR_r0_lF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySaySayxGGGGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySayxGGGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySayxGGSgGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySayxGSgGGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySaySayxSgGGGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySayxGGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySayxGSgGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySayxSgGGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySaySayxSgGSgGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySayxGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiySayxSgGSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiyxSgyp_AA15OptionalKeyPathVtKA2ARzlF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable3egqoiyypSgyp_AA15OptionalKeyPathVtKF">=&gt;?(_:_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable4castyxypKlF">cast(_:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable18decodeArrayAsOneOf_11objectTypesSayA2A_pGyp_A2A_pXpdtKF">decodeArrayAsOneOf(_:objectTypes:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable13decodeAsOneOf_11objectTypesA2A_pyp_A2A_pXpdtKF">decodeAsOneOf(_:objectTypes:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable5parse_7keyPath7decoderxSgyp_AA011OptionalKeyD0VAEypKXEtKlF">parse(_:keyPath:decoder:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable5parse_7keyPath7decoderxyp_AA03KeyD0VxypKXEtKlF">parse(_:keyPath:decoder:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:9Decodable2teoiySbxm_ypXptlF">~=(_:_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/Decodable.html">Decodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DynamicDecodable.html">DynamicDecodable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NSNumberCastable.html">NSNumberCastable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NSValueCastable.html">NSValueCastable</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/KeyPath.html">KeyPath</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OptionalKey.html">OptionalKey</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/OptionalKeyPath.html">OptionalKeyPath</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>OptionalKeyPath</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">OptionalKeyPath</span></code></pre>
+
+                </div>
+              </div>
+            <p><code>OptionalKeyPath</code> represents the path to a specific node in a tree of nested dictionaries.</p>
+
+<p>Can be created from string and array literals and can be joined by the <code>=&gt;?</code> operator.</p>
+<pre class="highlight swift"><code> <span class="k">let</span> <span class="nv">a</span><span class="p">:</span> <span class="kt">OptionalKeyPath</span> <span class="o">=</span> <span class="s">"a"</span>
+ <span class="k">let</span> <span class="nv">b</span><span class="p">:</span> <span class="kt">OptionalKeyPath</span> <span class="o">=</span> <span class="p">[</span><span class="s">"a"</span><span class="p">,</span> <span class="s">"b"</span><span class="p">]</span>
+ <span class="k">let</span> <span class="nv">c</span><span class="p">:</span> <span class="kt">OptionalKeyPath</span> <span class="o">=</span> <span class="s">"a"</span> <span class="o">=&gt;</span><span class="p">?</span> <span class="s">"b"</span> <span class="o">=&gt;</span><span class="p">?</span> <span class="s">"c"</span>
+</code></pre>
+
+<p>Unlike <code><a href="../Structs/KeyPath.html">KeyPath</a></code>, <code>OptionalKeyPath</code> allows each key to be either required or optional.
+<code>isRequired</code> is <code>false</code> by default.</p>
+
+<p>When a <code><a href="../Structs/KeyPath.html">KeyPath</a></code> is converted to a OptionalKeyPath, <code>isRequired</code> is set to <code>true</code>.</p>
+<pre class="highlight swift"><code> <span class="k">let</span> <span class="nv">c</span><span class="p">:</span> <span class="kt">OptionalKeyPath</span> <span class="o">=</span> <span class="s">"a"</span> <span class="o">=&gt;</span><span class="p">?</span> <span class="s">"b"</span> <span class="o">=&gt;</span> <span class="s">"c"</span>
+                                         <span class="o">^^</span>
+                             <span class="n">isRequired</span><span class="o">=</span><span class="kc">true</span>
+</code></pre>
+
+<p>In the above example <code>&quot;c&quot;</code> is inferred as <code><a href="../Structs/KeyPath.html">KeyPath</a></code>, then converted to <code>OptionalKeyPath</code>
+ with <code>isRequired = true</code></p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:9Decodable15OptionalKeyPathV4keysSayAA0bC0VGvp"></a>
+                    <a name="//apple_ref/swift/Property/keys" class="dashAnchor"></a>
+                    <a class="token" href="#/s:9Decodable15OptionalKeyPathV4keysSayAA0bC0VGvp">keys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">keys</span><span class="p">:</span> <span class="p">[</span><span class="kt"><a href="../Structs/OptionalKey.html">OptionalKey</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s26ExpressibleByStringLiteralP06stringD0x0cD4TypeQz_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(stringLiteral:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s26ExpressibleByStringLiteralP06stringD0x0cD4TypeQz_tcfc">init(stringLiteral:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">stringLiteral</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s43ExpressibleByExtendedGraphemeClusterLiteralP08extendeddeF0x0cdeF4TypeQz_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(extendedGraphemeClusterLiteral:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s43ExpressibleByExtendedGraphemeClusterLiteralP08extendeddeF0x0cdeF4TypeQz_tcfc">init(extendedGraphemeClusterLiteral:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">extendedGraphemeClusterLiteral</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s33ExpressibleByUnicodeScalarLiteralP07unicodedE0x0cdE4TypeQz_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(unicodeScalarLiteral:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s33ExpressibleByUnicodeScalarLiteralP07unicodedE0x0cdE4TypeQz_tcfc">init(unicodeScalarLiteral:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">unicodeScalarLiteral</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:s25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(arrayLiteral:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:s25ExpressibleByArrayLiteralP05arrayD0x0cD7ElementQzd_tcfc">init(arrayLiteral:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="n">arrayLiteral</span> <span class="nv">elements</span><span class="p">:</span> <span class="kt">String</span><span class="o">...</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="https://github.com/Anviking/Decodable" target="_blank" rel="external">Anviking and Joe Mattiello</a>. All rights reserved. (Last updated: 2019-11-04)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.11.2</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
