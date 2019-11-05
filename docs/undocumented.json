@@ -1,0 +1,313 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Castable.swift",
+      "line": 26,
+      "symbol": "DynamicDecodable.DecodedType",
+      "symbol_kind": "source.lang.swift.decl.associatedtype",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Castable.swift",
+      "line": 38,
+      "symbol": "Decodable.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Castable.swift",
+      "line": 89,
+      "symbol": "NSDictionary.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Castable.swift",
+      "line": 96,
+      "symbol": "NSArray.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Decodable.swift",
+      "line": 11,
+      "symbol": "Decodable",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Decodable.swift",
+      "line": 12,
+      "symbol": "Decodable.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Decodable.swift",
+      "line": 17,
+      "symbol": "Dictionary.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Decodable.swift",
+      "line": 35,
+      "symbol": "Array.decode(_:ignoreInvalidObjects:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Decodable.swift",
+      "line": 37,
+      "symbol": "Decodable",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 11,
+      "symbol": "DecodingError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 18,
+      "symbol": "DecodingError.Metadata.init(path:object:rootObject:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 58,
+      "symbol": "DecodingError.metadata",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 87,
+      "symbol": "DecodingError.debugDescription",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 107,
+      "symbol": "~=(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 112,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/DecodingError.swift",
+      "line": 118,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/KeyPath.swift",
+      "line": 21,
+      "symbol": "KeyPath.keys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/KeyPath.swift",
+      "line": 23,
+      "symbol": "KeyPath.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/KeyPath.swift",
+      "line": 27,
+      "symbol": "KeyPath.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/KeyPath.swift",
+      "line": 54,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 12,
+      "symbol": "Int64.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 15,
+      "symbol": "Int32.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 18,
+      "symbol": "Int16.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 21,
+      "symbol": "Int8.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 24,
+      "symbol": "UInt64.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 27,
+      "symbol": "UInt32.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 30,
+      "symbol": "UInt16.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 33,
+      "symbol": "UInt8.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 41,
+      "symbol": "NSNumberCastable.convertFrom(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 46,
+      "symbol": "NSValueCastable.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/NSValueCastable.swift",
+      "line": 56,
+      "symbol": "NSNumberCastable.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Operators.swift",
+      "line": 21,
+      "symbol": "=>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Operators.swift",
+      "line": 26,
+      "symbol": "=>?(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Operators.swift",
+      "line": 38,
+      "symbol": "=>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Operators.swift",
+      "line": 42,
+      "symbol": "=>?(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Operators.swift",
+      "line": 46,
+      "symbol": "=>(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Operators.swift",
+      "line": 51,
+      "symbol": "=>?(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/OptionalKeyPath.swift",
+      "line": 17,
+      "symbol": "OptionalKey.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/OptionalKeyPath.swift",
+      "line": 18,
+      "symbol": "OptionalKey.isRequired",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/OptionalKeyPath.swift",
+      "line": 48,
+      "symbol": "OptionalKeyPath.keys",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/OptionalKeyPath.swift",
+      "line": 89,
+      "symbol": "==(_:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Parse.swift",
+      "line": 45,
+      "symbol": "parse(_:keyPath:decoder:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/Parse.swift",
+      "line": 51,
+      "symbol": "parse(_:keyPath:decoder:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable/Sources/RawRepresentableDecodable.swift",
+      "line": 17,
+      "symbol": "RawRepresentable.decode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/mattielloj/Workspace/REEL/Frameworks/Decodable"
+}
